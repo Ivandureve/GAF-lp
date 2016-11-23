@@ -20,6 +20,7 @@ h6,
 p {
     font-family: ostrich-regular; src: url('ostrich-regular.ttf');
     color: white;
+    text-align: center;
 }
 
 h1,
@@ -32,10 +33,24 @@ p {
     text-shadow: 9px 9px 9px rgba(0,0,0,0.5);
 }
 
+h1{
+    padding-top: 55px;
+}
+
 body{
     background: url(../img/intro-bg.jpg) no-repeat center;
     background-size: 100% auto;
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
 }
+
+@media (min-width: 644px) {
+    .element {
+        background: #222222;
+    }
+
+
 
 #lp{
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
