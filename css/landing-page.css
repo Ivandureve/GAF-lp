@@ -19,19 +19,30 @@ h5,
 h6,
 p {
     font-family: ostrich-regular; src: url('ostrich-regular.ttf');
-    color: white;
     text-align: center;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p { 
-    text-shadow: 9px 9px 9px rgba(0,0,0,0.5);
+.modal{
+    color:black;
 }
+
+
+
+h1{
+        text-shadow: 9px 9px 9px rgba(0,0,0,0.5);
+}
+
+.modal-backdrop {
+   background-color: brown;
+}
+
+
+.modal-body, h6, h4
+{
+    color: black;
+    margin: 0px;
+}
+
 
 h1{
     padding-top: 55px;
@@ -50,7 +61,16 @@ body{
         background: #222222;
     }
 
-
+.btn-perso {
+    background:none;
+    border:none;
+    box-shadow:none;
+}
+.btn-perso:hover {
+    background:none;
+    border:none;
+    box-shadow:none;
+}
 
 #lp{
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
